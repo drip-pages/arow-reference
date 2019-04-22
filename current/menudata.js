@@ -23,7 +23,6 @@ for the JavaScript code in this file
 */
 var menudata={children:[
 {text:"総合概要",url:"index.html"},
-{text:"モジュール",url:"modules.html"},
 {text:"名前空間",url:"namespaces.html",children:[
 {text:"名前空間一覧",url:"namespaces.html"},
 {text:"名前空間メンバ",url:"namespacemembers.html",children:[
@@ -66,6 +65,4 @@ var menudata={children:[
 {text:"s",url:"functions_func.html#index_s"},
 {text:"u",url:"functions_func.html#index_u"}]},
 {text:"変数",url:"functions_vars.html"},
-{text:"プロパティ",url:"functions_prop.html"}]}]},
-{text:"ファイル",url:"files.html",children:[
-{text:"ファイル一覧",url:"files.html"}]}]}
+{text:"プロパティ",url:"functions_prop.html"}]}]}]}
