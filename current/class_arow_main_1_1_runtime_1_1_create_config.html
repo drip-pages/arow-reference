@@ -116,10 +116,6 @@ ArowMain.Runtime.CreateConfig の継承関係図</div>
 <b>GsiAndOsm</b> = 3
  }</td></tr>
 <tr class="separator:a3a039c9478ef1e4a054307d140d1ed85"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7127079516e6efa66bf29e6bbcfe6afb"><td class="memItemLeft" align="right" valign="top"><a id="a7127079516e6efa66bf29e6bbcfe6afb"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>RoadPattern</b> { <b>None</b> = 0, 
-<b>Yes</b> = 1
- }</td></tr>
-<tr class="separator:a7127079516e6efa66bf29e6bbcfe6afb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:accb5c6019cce73ee7d1ba0231d28cbaa"><td class="memItemLeft" align="right" valign="top"><a id="accb5c6019cce73ee7d1ba0231d28cbaa"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>BuildingDrawType</b> { <b>Normal</b> = 0, 
 <b>InteriorMapping</b> = 1
  }</td></tr>
@@ -130,6 +126,10 @@ ArowMain.Runtime.CreateConfig の継承関係図</div>
 <b>Mesh</b> = 3
  }</td></tr>
 <tr class="separator:a864a53af7358822b7cbbfecdb547b216"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a433b971f9679df53b479d8533f63a231"><td class="memItemLeft" align="right" valign="top"><a id="a433b971f9679df53b479d8533f63a231"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>FillGapGround</b> { <b>None</b> = 0, 
+<b>LiftupBuilding</b> = 1
+ }</td></tr>
+<tr class="separator:a433b971f9679df53b479d8533f63a231"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 公開変数類</h2></td></tr>
@@ -151,12 +151,12 @@ List&lt; Material &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>Bui
 <tr class="memitem:abdaad0bf3fda7e0af3d759b4a30d1baf"><td class="memItemLeft" align="right" valign="top"><a id="abdaad0bf3fda7e0af3d759b4a30d1baf"></a>
 List&lt; Material &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>BuildingRoofMaterials</b> = new List&lt;Material&gt;()</td></tr>
 <tr class="separator:abdaad0bf3fda7e0af3d759b4a30d1baf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a191d0579a4a6dc5cac16268b59949779"><td class="memItemLeft" align="right" valign="top"><a id="a191d0579a4a6dc5cac16268b59949779"></a>
+List&lt; Material &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>BuildingFillGapMaterials</b> = new List&lt;Material&gt;()</td></tr>
+<tr class="separator:a191d0579a4a6dc5cac16268b59949779"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae275dbc3dd1cd9cbe5653123dd43f377"><td class="memItemLeft" align="right" valign="top"><a id="ae275dbc3dd1cd9cbe5653123dd43f377"></a>
 BuildingPattern&#160;</td><td class="memItemRight" valign="bottom"><b>BuildingPatternElement</b> = BuildingPattern.Osm</td></tr>
 <tr class="separator:ae275dbc3dd1cd9cbe5653123dd43f377"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23d258bc9e5b82613e57d17c146864cc"><td class="memItemLeft" align="right" valign="top"><a id="a23d258bc9e5b82613e57d17c146864cc"></a>
-RoadPattern&#160;</td><td class="memItemRight" valign="bottom"><b>RoadPatternElement</b> = RoadPattern.Yes</td></tr>
-<tr class="separator:a23d258bc9e5b82613e57d17c146864cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0b96c5d824afc885a505ff5a568902d"><td class="memItemLeft" align="right" valign="top"><a id="af0b96c5d824afc885a505ff5a568902d"></a>
 BuildingDrawType&#160;</td><td class="memItemRight" valign="bottom"><b>BuildingDrawTypeElement</b> = BuildingDrawType.Normal</td></tr>
 <tr class="separator:af0b96c5d824afc885a505ff5a568902d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -166,6 +166,24 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>BuildingEditorEnable<
 <tr class="memitem:a6508db4107f708a21b7454a98fde9c10"><td class="memItemLeft" align="right" valign="top"><a id="a6508db4107f708a21b7454a98fde9c10"></a>
 BuildingCollider&#160;</td><td class="memItemRight" valign="bottom"><b>BuildingColliderElement</b> = BuildingCollider.None</td></tr>
 <tr class="separator:a6508db4107f708a21b7454a98fde9c10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada461a860e80b590800ea1007becf889"><td class="memItemLeft" align="right" valign="top"><a id="ada461a860e80b590800ea1007becf889"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsUseRandomSeed</b></td></tr>
+<tr class="separator:ada461a860e80b590800ea1007becf889"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d71023a1481b02d6392b8ce25dd220c"><td class="memItemLeft" align="right" valign="top"><a id="a7d71023a1481b02d6392b8ce25dd220c"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>RandomSeed</b></td></tr>
+<tr class="separator:a7d71023a1481b02d6392b8ce25dd220c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8212c9de0bcc3d213d7ade326d9f3d2c"><td class="memItemLeft" align="right" valign="top"><a id="a8212c9de0bcc3d213d7ade326d9f3d2c"></a>
+System.Random&#160;</td><td class="memItemRight" valign="bottom"><b>RandomProviderInstance</b> = null</td></tr>
+<tr class="separator:a8212c9de0bcc3d213d7ade326d9f3d2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f701227d8bd376354d01d4d7222d028"><td class="memItemLeft" align="right" valign="top"><a id="a9f701227d8bd376354d01d4d7222d028"></a>
+<a class="el" href="class_arow_main_1_1_runtime_1_1_landmark_poi_config.html">LandmarkPoiConfig</a>&#160;</td><td class="memItemRight" valign="bottom"><b>LandmarkConfig</b> = null</td></tr>
+<tr class="separator:a9f701227d8bd376354d01d4d7222d028"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec129efef138d583c8e2ffeebab3930c"><td class="memItemLeft" align="right" valign="top"><a id="aec129efef138d583c8e2ffeebab3930c"></a>
+<a class="el" href="class_arow_main_1_1_runtime_1_1_category_poi_config.html">CategoryPoiConfig</a>&#160;</td><td class="memItemRight" valign="bottom"><b>CategoryPoiConfig</b> = null</td></tr>
+<tr class="separator:aec129efef138d583c8e2ffeebab3930c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4042003a0f19e687a2dbc1d84d880f40"><td class="memItemLeft" align="right" valign="top"><a id="a4042003a0f19e687a2dbc1d84d880f40"></a>
+FillGapGround&#160;</td><td class="memItemRight" valign="bottom"><b>FillGapGroundElement</b> = FillGapGround.LiftupBuilding</td></tr>
+<tr class="separator:a4042003a0f19e687a2dbc1d84d880f40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5ecd6a55ba8d04ebeb88ee27c9d0031"><td class="memItemLeft" align="right" valign="top">Action&lt; MeshRenderer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_arow_main_1_1_runtime_1_1_create_config.html#ac5ecd6a55ba8d04ebeb88ee27c9d0031">SetupSharedMaterials</a></td></tr>
 <tr class="memdesc:ac5ecd6a55ba8d04ebeb88ee27c9d0031"><td class="mdescLeft">&#160;</td><td class="mdescRight">MeshRenderer.sharedMaterials にマテリアル設定を行うコールバック。  <a href="#ac5ecd6a55ba8d04ebeb88ee27c9d0031">[詳解]</a><br /></td></tr>
 <tr class="separator:ac5ecd6a55ba8d04ebeb88ee27c9d0031"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -190,7 +208,7 @@ BuildingCollider&#160;</td><td class="memItemRight" valign="bottom"><b>BuildingC
 </div>
 </div>
 <hr/>このクラス詳解は次のファイルから抽出されました:<ul>
-<li>Assets/ArowMain/Runtime/CreateConfig.cs</li>
+<li>Assets/ArowMain/Runtime/MapObjConfig/CreateConfig.cs</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -198,7 +216,7 @@ BuildingCollider&#160;</td><td class="memItemRight" valign="bottom"><b>BuildingC
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="footer">
-      AROW version 0.1.0 Document
+      AROW version 0.2.0 Document
     </li>
   </ul>
 </div>

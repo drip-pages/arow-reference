@@ -87,6 +87,7 @@ $(document).ready(function(){initNavTree('class_arow_main_1_1_runtime_1_1_create
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">クラス</a> &#124;
+<a href="#pub-types">公開型</a> &#124;
 <a href="#pub-static-methods">静的公開メンバ関数</a> &#124;
 <a href="class_arow_main_1_1_runtime_1_1_create_model_scripts_1_1_create_building_mesh_scripts-members.html">全メンバ一覧</a>  </div>
   <div class="headertitle">
@@ -97,14 +98,25 @@ $(document).ready(function(){initNavTree('class_arow_main_1_1_runtime_1_1_create
 <p>建物データからメッシュや GameObject を生成する  
  <a href="class_arow_main_1_1_runtime_1_1_create_model_scripts_1_1_create_building_mesh_scripts.html#details">[詳解]</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+公開型</h2></td></tr>
+<tr class="memitem:a3c92f57b1ad20936a41a0625ac783c13"><td class="memItemLeft" align="right" valign="top"><a id="a3c92f57b1ad20936a41a0625ac783c13"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>CREATE_KIND</b> { <b>BUILDING</b>, 
+<b>SURFACE</b>, 
+<b>ONLY_FILL_GAP</b>
+ }</td></tr>
+<tr class="separator:a3c92f57b1ad20936a41a0625ac783c13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 静的公開メンバ関数</h2></td></tr>
-<tr class="memitem:a74845c56140c3926e4a2600a1c43286d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_arow_main_1_1_runtime_1_1_create_model_scripts_1_1_create_building_mesh_scripts.html#a74845c56140c3926e4a2600a1c43286d">CreateMesh</a> (<a class="el" href="class_arow_library_1_1_arow_define_1_1_schema_wrapper_1_1_building_data_model.html">BuildingDataModel</a> buildingDataModel, Vector2 worldCenter, Vector2 worldScale, Action&lt; <a class="el" href="class_arow_main_1_1_runtime_1_1_create_model_scripts_1_1_building_data_model_with_mesh.html">BuildingDataModelWithMesh</a> &gt; callback, <a class="el" href="class_arow_main_1_1_building_editor_1_1_building_editor_datum.html">BuildingEditorDatum</a> editorDatum, <a class="el" href="class_arow_main_1_1_runtime_1_1_create_config.html">CreateConfig</a> config=null)</td></tr>
-<tr class="memdesc:a74845c56140c3926e4a2600a1c43286d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Building データから Mesh を生成する  <a href="#a74845c56140c3926e4a2600a1c43286d">[詳解]</a><br /></td></tr>
-<tr class="separator:a74845c56140c3926e4a2600a1c43286d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8ce5c39eab94d2ba69ef984ab13d340"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_arow_main_1_1_runtime_1_1_create_model_scripts_1_1_create_building_mesh_scripts.html#ab8ce5c39eab94d2ba69ef984ab13d340">CreateMesh</a> (<a class="el" href="class_arow_library_1_1_arow_define_1_1_schema_wrapper_1_1_building_data_model.html">BuildingDataModel</a> buildingDataModel, Vector2 worldCenter, Vector2 worldScale, NodeTagChecker.CHECK_KIND check_kind, CREATE_KIND kind, Action&lt; <a class="el" href="class_arow_main_1_1_runtime_1_1_create_model_scripts_1_1_building_data_model_with_mesh.html">BuildingDataModelWithMesh</a> &gt; callback, <a class="el" href="class_arow_main_1_1_building_editor_1_1_building_editor_datum.html">BuildingEditorDatum</a> editorDatum, <a class="el" href="class_arow_main_1_1_runtime_1_1_create_config.html">CreateConfig</a> config)</td></tr>
+<tr class="memdesc:ab8ce5c39eab94d2ba69ef984ab13d340"><td class="mdescLeft">&#160;</td><td class="mdescRight">Building データから Mesh を生成する  <a href="#ab8ce5c39eab94d2ba69ef984ab13d340">[詳解]</a><br /></td></tr>
+<tr class="separator:ab8ce5c39eab94d2ba69ef984ab13d340"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46c91cdb0b0fa9d4785da956c1aba191"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_arow_main_1_1_runtime_1_1_create_model_scripts_1_1_create_building_mesh_scripts.html#a46c91cdb0b0fa9d4785da956c1aba191">CreateBuildingGameObject</a> (<a class="el" href="class_arow_main_1_1_runtime_1_1_create_model_scripts_1_1_building_data_model_with_mesh.html">BuildingDataModelWithMesh</a> buildingDataModelWithMesh, <a class="el" href="class_arow_main_1_1_runtime_1_1_parent_info.html">ParentInfo</a> parentInfo, <a class="el" href="class_arow_main_1_1_runtime_1_1_create_config.html">CreateConfig</a> config=null)</td></tr>
 <tr class="memdesc:a46c91cdb0b0fa9d4785da956c1aba191"><td class="mdescLeft">&#160;</td><td class="mdescRight">Building の GameObject を生成する  <a href="#a46c91cdb0b0fa9d4785da956c1aba191">[詳解]</a><br /></td></tr>
 <tr class="separator:a46c91cdb0b0fa9d4785da956c1aba191"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae638d4463dd0ae41e067471d9a31d3b6"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_arow_main_1_1_runtime_1_1_create_model_scripts_1_1_create_building_mesh_scripts.html#ae638d4463dd0ae41e067471d9a31d3b6">CreateWaterAreaGameObject</a> (<a class="el" href="class_arow_main_1_1_runtime_1_1_create_model_scripts_1_1_building_data_model_with_mesh.html">BuildingDataModelWithMesh</a> WaterAreaDataModelWithMesh, <a class="el" href="class_arow_main_1_1_runtime_1_1_parent_info.html">ParentInfo</a> parentInfo, <a class="el" href="class_arow_main_1_1_runtime_1_1_create_config.html">CreateConfig</a> config=null)</td></tr>
+<tr class="memdesc:ae638d4463dd0ae41e067471d9a31d3b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">WaterArea のGameObjectを生成する  <a href="#ae638d4463dd0ae41e067471d9a31d3b6">[詳解]</a><br /></td></tr>
+<tr class="separator:ae638d4463dd0ae41e067471d9a31d3b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a974134ca9aa2e953793d6982b226e4af"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_arow_main_1_1_runtime_1_1_create_model_scripts_1_1_create_building_mesh_scripts.html#a974134ca9aa2e953793d6982b226e4af">CreateBuildingGameObject</a> (<a class="el" href="class_arow_main_1_1_runtime_1_1_create_model_scripts_1_1_building_data_model_with_mesh.html">BuildingDataModelWithMesh</a> buildingDataModelWithMesh, Transform parentTransform, Vector2Int worldCenter, Vector2 worldScale, <a class="el" href="class_arow_main_1_1_runtime_1_1_create_config.html">CreateConfig</a> config=null)</td></tr>
 <tr class="memdesc:a974134ca9aa2e953793d6982b226e4af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Building の GameObject を生成する  <a href="#a974134ca9aa2e953793d6982b226e4af">[詳解]</a><br /></td></tr>
 <tr class="separator:a974134ca9aa2e953793d6982b226e4af"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -230,8 +242,8 @@ $(document).ready(function(){initNavTree('class_arow_main_1_1_runtime_1_1_create
 
 </div>
 </div>
-<a id="a74845c56140c3926e4a2600a1c43286d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a74845c56140c3926e4a2600a1c43286d">&#9670;&nbsp;</a></span>CreateMesh()</h2>
+<a id="ab8ce5c39eab94d2ba69ef984ab13d340"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8ce5c39eab94d2ba69ef984ab13d340">&#9670;&nbsp;</a></span>CreateMesh()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -260,6 +272,18 @@ $(document).ready(function(){initNavTree('class_arow_main_1_1_runtime_1_1_create
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">NodeTagChecker.CHECK_KIND&#160;</td>
+          <td class="paramname"><em>check_kind</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CREATE_KIND&#160;</td>
+          <td class="paramname"><em>kind</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">Action&lt; <a class="el" href="class_arow_main_1_1_runtime_1_1_create_model_scripts_1_1_building_data_model_with_mesh.html">BuildingDataModelWithMesh</a> &gt;&#160;</td>
           <td class="paramname"><em>callback</em>, </td>
         </tr>
@@ -273,7 +297,7 @@ $(document).ready(function(){initNavTree('class_arow_main_1_1_runtime_1_1_create
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="class_arow_main_1_1_runtime_1_1_create_config.html">CreateConfig</a>&#160;</td>
-          <td class="paramname"><em>config</em> = <code>null</code>&#160;</td>
+          <td class="paramname"><em>config</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -303,6 +327,57 @@ $(document).ready(function(){initNavTree('class_arow_main_1_1_runtime_1_1_create
 
 </div>
 </div>
+<a id="ae638d4463dd0ae41e067471d9a31d3b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae638d4463dd0ae41e067471d9a31d3b6">&#9670;&nbsp;</a></span>CreateWaterAreaGameObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ArowMain.Runtime.CreateModelScripts.CreateBuildingMeshScripts.CreateWaterAreaGameObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_arow_main_1_1_runtime_1_1_create_model_scripts_1_1_building_data_model_with_mesh.html">BuildingDataModelWithMesh</a>&#160;</td>
+          <td class="paramname"><em>WaterAreaDataModelWithMesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_arow_main_1_1_runtime_1_1_parent_info.html">ParentInfo</a>&#160;</td>
+          <td class="paramname"><em>parentInfo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_arow_main_1_1_runtime_1_1_create_config.html">CreateConfig</a>&#160;</td>
+          <td class="paramname"><em>config</em> = <code>null</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>WaterArea のGameObjectを生成する </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">WaterAreaDataModelWithMesh</td><td></td></tr>
+    <tr><td class="paramname">parentInfo</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <hr/>このクラス詳解は次のファイルから抽出されました:<ul>
 <li>Assets/ArowMain/Runtime/CreateModelScripts/CreateBuildingMeshScripts.cs</li>
 </ul>
@@ -312,7 +387,7 @@ $(document).ready(function(){initNavTree('class_arow_main_1_1_runtime_1_1_create
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="footer">
-      AROW version 0.1.0 Document
+      AROW version 0.2.0 Document
     </li>
   </ul>
 </div>

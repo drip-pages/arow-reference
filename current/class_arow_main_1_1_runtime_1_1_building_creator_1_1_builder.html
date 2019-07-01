@@ -101,6 +101,9 @@ $(document).ready(function(){initNavTree('class_arow_main_1_1_runtime_1_1_buildi
 <tr class="memitem:a91d1bdc0030c00d9f46ceb8a41b89144"><td class="memItemLeft" align="right" valign="top"><a id="a91d1bdc0030c00d9f46ceb8a41b89144"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Builder</b> (List&lt; <a class="el" href="class_arow_library_1_1_arow_define_1_1_schema_wrapper_1_1_building_data_model.html">BuildingDataModel</a> &gt; buildingDataModels)</td></tr>
 <tr class="separator:a91d1bdc0030c00d9f46ceb8a41b89144"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12955376d420a8d4826b0249d7cb912d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_arow_main_1_1_runtime_1_1_building_creator_1_1_builder.html">BuildingCreator.Builder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_arow_main_1_1_runtime_1_1_building_creator_1_1_builder.html#a12955376d420a8d4826b0249d7cb912d">SetRoadDataModels</a> (List&lt; <a class="el" href="class_arow_library_1_1_arow_define_1_1_schema_wrapper_1_1_road_data_model.html">RoadDataModel</a> &gt; roadData)</td></tr>
+<tr class="memdesc:a12955376d420a8d4826b0249d7cb912d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prefabの向きを決める為に Road のデータを設定する  <a href="#a12955376d420a8d4826b0249d7cb912d">[詳解]</a><br /></td></tr>
+<tr class="separator:a12955376d420a8d4826b0249d7cb912d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3429a4f90939b0c8aa60387ff991694"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_arow_main_1_1_runtime_1_1_building_creator_1_1_builder.html">BuildingCreator.Builder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_arow_main_1_1_runtime_1_1_building_creator_1_1_builder.html#af3429a4f90939b0c8aa60387ff991694">SetWorldCenter</a> (Vector2Int worldCenter)</td></tr>
 <tr class="memdesc:af3429a4f90939b0c8aa60387ff991694"><td class="mdescLeft">&#160;</td><td class="mdescRight">WorldCenter を設定する  <a href="#af3429a4f90939b0c8aa60387ff991694">[詳解]</a><br /></td></tr>
 <tr class="separator:af3429a4f90939b0c8aa60387ff991694"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -425,6 +428,41 @@ $(document).ready(function(){initNavTree('class_arow_main_1_1_runtime_1_1_buildi
 
 </div>
 </div>
+<a id="a12955376d420a8d4826b0249d7cb912d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12955376d420a8d4826b0249d7cb912d">&#9670;&nbsp;</a></span>SetRoadDataModels()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_arow_main_1_1_runtime_1_1_building_creator_1_1_builder.html">BuildingCreator.Builder</a> ArowMain.Runtime.BuildingCreator.Builder.SetRoadDataModels </td>
+          <td>(</td>
+          <td class="paramtype">List&lt; <a class="el" href="class_arow_library_1_1_arow_define_1_1_schema_wrapper_1_1_road_data_model.html">RoadDataModel</a> &gt;&#160;</td>
+          <td class="paramname"><em>roadData</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Prefabの向きを決める為に Road のデータを設定する </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">roadData</td><td>parent gameobject</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>self instance</dd></dl>
+
+</div>
+</div>
 <a id="af3429a4f90939b0c8aa60387ff991694"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af3429a4f90939b0c8aa60387ff991694">&#9670;&nbsp;</a></span>SetWorldCenter()</h2>
 
@@ -496,7 +534,7 @@ $(document).ready(function(){initNavTree('class_arow_main_1_1_runtime_1_1_buildi
 </div>
 </div>
 <hr/>このクラス詳解は次のファイルから抽出されました:<ul>
-<li>Assets/ArowMain/Runtime/BuildingCreateor.cs</li>
+<li>Assets/ArowMain/Runtime/MapObjCreator/BuildingCreator.cs</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -504,7 +542,7 @@ $(document).ready(function(){initNavTree('class_arow_main_1_1_runtime_1_1_buildi
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="footer">
-      AROW version 0.1.0 Document
+      AROW version 0.2.0 Document
     </li>
   </ul>
 </div>

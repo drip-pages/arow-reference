@@ -10,6 +10,7 @@ var class_arow_main_1_1_runtime_1_1_building_creator_1_1_builder =
     [ "SetOnCompletedCreateMeshCallBack", "class_arow_main_1_1_runtime_1_1_building_creator_1_1_builder.html#aa9f02c333bd85a954a75280b041f7e28", null ],
     [ "SetOnMeshBuildType", "class_arow_main_1_1_runtime_1_1_building_creator_1_1_builder.html#a08ed72a092ae619cd85919765bf9b9e7", null ],
     [ "SetOnMeshCreatedCallBack", "class_arow_main_1_1_runtime_1_1_building_creator_1_1_builder.html#a48734677715b9700d1e6991e2f4b3d31", null ],
+    [ "SetRoadDataModels", "class_arow_main_1_1_runtime_1_1_building_creator_1_1_builder.html#a12955376d420a8d4826b0249d7cb912d", null ],
     [ "SetWorldCenter", "class_arow_main_1_1_runtime_1_1_building_creator_1_1_builder.html#af3429a4f90939b0c8aa60387ff991694", null ],
     [ "SetWorldScale", "class_arow_main_1_1_runtime_1_1_building_creator_1_1_builder.html#aac907d34e4d90405e2f66fdfc960fa0a", null ]
 ];

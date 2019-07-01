@@ -114,12 +114,18 @@ ArowSampleGame.SampleScripts.ArowDemoMain の継承関係図</div>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 公開メンバ関数</h2></td></tr>
+<tr class="memitem:a3c2795baa35a3079e73601a7792a2899"><td class="memItemLeft" align="right" valign="top">Vector2Int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_arow_sample_game_1_1_sample_scripts_1_1_arow_demo_main.html#a3c2795baa35a3079e73601a7792a2899">GetWorldCenter</a> ()</td></tr>
+<tr class="memdesc:a3c2795baa35a3079e73601a7792a2899"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the world center.  <a href="#a3c2795baa35a3079e73601a7792a2899">[詳解]</a><br /></td></tr>
+<tr class="separator:a3c2795baa35a3079e73601a7792a2899"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67c06cb9b0416f1dc38b35afdb07f454"><td class="memItemLeft" align="right" valign="top"><a id="a67c06cb9b0416f1dc38b35afdb07f454"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Initialize</b> ()</td></tr>
 <tr class="separator:a67c06cb9b0416f1dc38b35afdb07f454"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3adcf105b6ccbc6a852d52785b3e3b2d"><td class="memItemLeft" align="right" valign="top"><a id="a3adcf105b6ccbc6a852d52785b3e3b2d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>CreateBuildingFromConfigAsset</b> ()</td></tr>
-<tr class="separator:a3adcf105b6ccbc6a852d52785b3e3b2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af30e05302a2f72d796a8399b08950f55"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_arow_sample_game_1_1_sample_scripts_1_1_arow_demo_main.html#af30e05302a2f72d796a8399b08950f55">InitializePoiObserver</a> ()</td></tr>
+<tr class="memdesc:af30e05302a2f72d796a8399b08950f55"><td class="mdescLeft">&#160;</td><td class="mdescRight">DEMO用のPoiObserver初期化関数  <a href="#af30e05302a2f72d796a8399b08950f55">[詳解]</a><br /></td></tr>
+<tr class="separator:af30e05302a2f72d796a8399b08950f55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad191977535becb6e6acb975879347833"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_arow_sample_game_1_1_sample_scripts_1_1_arow_demo_main.html#ad191977535becb6e6acb975879347833">CreateBuildingFromConfigAsset</a> (bool use_landmark_config, bool use_poi_config)</td></tr>
+<tr class="memdesc:ad191977535becb6e6acb975879347833"><td class="mdescLeft">&#160;</td><td class="mdescRight">DEMO用のConfig関連の読み込み ※Demo用のConfigファイルなので、読み込み先は決め打ちしている  <a href="#ad191977535becb6e6acb975879347833">[詳解]</a><br /></td></tr>
+<tr class="separator:ad191977535becb6e6acb975879347833"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b000df7581dde7f308f88edaaf4fa8d"><td class="memItemLeft" align="right" valign="top"><a id="a7b000df7581dde7f308f88edaaf4fa8d"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>CreateBuildingsAttachmentCollider</b> ()</td></tr>
 <tr class="separator:a7b000df7581dde7f308f88edaaf4fa8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -145,6 +151,51 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>OrthographicSize</b>
 <a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
 <div class="textblock"><p>SampleGame内で使用する AROW Map の取り扱い関数群. </p>
 </div><h2 class="groupheader">関数詳解</h2>
+<a id="ad191977535becb6e6acb975879347833"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad191977535becb6e6acb975879347833">&#9670;&nbsp;</a></span>CreateBuildingFromConfigAsset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ArowSampleGame.SampleScripts.ArowDemoMain.CreateBuildingFromConfigAsset </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>use_landmark_config</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>use_poi_config</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>DEMO用のConfig関連の読み込み ※Demo用のConfigファイルなので、読み込み先は決め打ちしている </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">use_landmark_config</td><td>true:LandmarkConfigを読み込む</td></tr>
+    <tr><td class="paramname">use_poi_config</td><td>true:PoiConfigを読み込む</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a99911ec0652a5716d415954f8b4d35be"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a99911ec0652a5716d415954f8b4d35be">&#9670;&nbsp;</a></span>CreateGround()</h2>
 
@@ -204,6 +255,61 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>OrthographicSize</b>
 
 </div>
 </div>
+<a id="a3c2795baa35a3079e73601a7792a2899"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c2795baa35a3079e73601a7792a2899">&#9670;&nbsp;</a></span>GetWorldCenter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector2Int ArowSampleGame.SampleScripts.ArowDemoMain.GetWorldCenter </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the world center. </p>
+<dl class="section return"><dt>戻り値</dt><dd>The world center.</dd></dl>
+
+</div>
+</div>
+<a id="af30e05302a2f72d796a8399b08950f55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af30e05302a2f72d796a8399b08950f55">&#9670;&nbsp;</a></span>InitializePoiObserver()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ArowSampleGame.SampleScripts.ArowDemoMain.InitializePoiObserver </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>DEMO用のPoiObserver初期化関数 </p>
+
+</div>
+</div>
 <hr/>このクラス詳解は次のファイルから抽出されました:<ul>
 <li>Assets/ArowSample/Scripts/Demo/ArowDemoMain.cs</li>
 </ul>
@@ -213,7 +319,7 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>OrthographicSize</b>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="footer">
-      AROW version 0.1.0 Document
+      AROW version 0.2.0 Document
     </li>
   </ul>
 </div>
