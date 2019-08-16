@@ -13,7 +13,6 @@ var namespace_arow_main_1_1_runtime =
     [ "CreateConfig", "class_arow_main_1_1_runtime_1_1_create_config.html", "class_arow_main_1_1_runtime_1_1_create_config" ],
     [ "CreateConfigRoadMap", "class_arow_main_1_1_runtime_1_1_create_config_road_map.html", "class_arow_main_1_1_runtime_1_1_create_config_road_map" ],
     [ "DrawTexture2D", "class_arow_main_1_1_runtime_1_1_draw_texture2_d.html", "class_arow_main_1_1_runtime_1_1_draw_texture2_d" ],
-    [ "HavePrefabSize", "class_arow_main_1_1_runtime_1_1_have_prefab_size.html", "class_arow_main_1_1_runtime_1_1_have_prefab_size" ],
     [ "IArowPoiVisitor", "interface_arow_main_1_1_runtime_1_1_i_arow_poi_visitor.html", "interface_arow_main_1_1_runtime_1_1_i_arow_poi_visitor" ],
     [ "LandmarkPoiConfig", "class_arow_main_1_1_runtime_1_1_landmark_poi_config.html", "class_arow_main_1_1_runtime_1_1_landmark_poi_config" ],
     [ "MeshPos", "class_arow_main_1_1_runtime_1_1_mesh_pos.html", "class_arow_main_1_1_runtime_1_1_mesh_pos" ],

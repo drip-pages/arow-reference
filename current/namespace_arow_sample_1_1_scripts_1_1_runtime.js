@@ -7,6 +7,8 @@ var namespace_arow_sample_1_1_scripts_1_1_runtime =
     [ "CreateRuntimeRoadBuilder", "class_arow_sample_1_1_scripts_1_1_runtime_1_1_create_runtime_road_builder.html", "class_arow_sample_1_1_scripts_1_1_runtime_1_1_create_runtime_road_builder" ],
     [ "CreateRuntimeUtility", "class_arow_sample_1_1_scripts_1_1_runtime_1_1_create_runtime_utility.html", "class_arow_sample_1_1_scripts_1_1_runtime_1_1_create_runtime_utility" ],
     [ "FollowCamera", "class_arow_sample_1_1_scripts_1_1_runtime_1_1_follow_camera.html", "class_arow_sample_1_1_scripts_1_1_runtime_1_1_follow_camera" ],
+    [ "GpsFollowCamera", "class_arow_sample_1_1_scripts_1_1_runtime_1_1_gps_follow_camera.html", null ],
+    [ "GpsPlayerStart", "class_arow_sample_1_1_scripts_1_1_runtime_1_1_gps_player_start.html", null ],
     [ "JsonMeasureLog", "class_arow_sample_1_1_scripts_1_1_runtime_1_1_json_measure_log.html", "class_arow_sample_1_1_scripts_1_1_runtime_1_1_json_measure_log" ],
     [ "JsonMeasureProcess", "class_arow_sample_1_1_scripts_1_1_runtime_1_1_json_measure_process.html", "class_arow_sample_1_1_scripts_1_1_runtime_1_1_json_measure_process" ],
     [ "JsonMeasureResult", "class_arow_sample_1_1_scripts_1_1_runtime_1_1_json_measure_result.html", "class_arow_sample_1_1_scripts_1_1_runtime_1_1_json_measure_result" ],
