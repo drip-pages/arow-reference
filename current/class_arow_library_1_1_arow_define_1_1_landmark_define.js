@@ -19,8 +19,5 @@ var class_arow_library_1_1_arow_define_1_1_landmark_define =
       [ "YOKOHAMA_GRAND_INTER_CONTINENTAL_HOTEL", "class_arow_library_1_1_arow_define_1_1_landmark_define.html#a87cc4a13373136e0fb2c9fe1a82357c4a263501fc2bbe43707f943d717b8f5b94", null ],
       [ "TOKYO_TOTYO", "class_arow_library_1_1_arow_define_1_1_landmark_define.html#a87cc4a13373136e0fb2c9fe1a82357c4a6f99e87e407ba1d2f255183f656f6252", null ],
       [ "SHIBUYA_QFRONT", "class_arow_library_1_1_arow_define_1_1_landmark_define.html#a87cc4a13373136e0fb2c9fe1a82357c4a6722b1d7f5b58587734b01c62aa5d6c1", null ]
-    ] ],
-    [ "INFO_LIST_LANDMARK_BUILDING_ID_KEY_NAME", "class_arow_library_1_1_arow_define_1_1_landmark_define.html#afed1432b5fa7be412b54bec3a26fa90b", null ],
-    [ "INFO_LIST_LANDMARK_CATEGORY_VALUE", "class_arow_library_1_1_arow_define_1_1_landmark_define.html#a7d497901c8abfc4a5ffc56dd0a0003ee", null ],
-    [ "INFO_LIST_LANDMARK_KEY", "class_arow_library_1_1_arow_define_1_1_landmark_define.html#aa10abbce217e8fbb3ec4b0aa337b4c89", null ]
+    ] ]
 ];
