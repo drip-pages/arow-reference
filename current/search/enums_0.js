@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['touchinfo_603',['TouchInfo',['../namespace_arow_sample_1_1_scripts_1_1_runtime.html#a9497108eee0e01e198dc107b1e8e080c',1,'ArowSample::Scripts::Runtime']]]
+  ['displaydirection_714',['DisplayDirection',['../namespace_arow_main_1_1_runtime_1_1_sector.html#ac713f6372e1965d815a8cb8eaf90bdca',1,'ArowMain::Runtime::Sector']]]
 ];
