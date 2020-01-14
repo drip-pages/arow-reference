@@ -100,10 +100,14 @@ $(document).ready(function(){initNavTree('class_arow_library_1_1_arow_define_1_1
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 公開型</h2></td></tr>
-<tr class="memitem:a69915b4ef95446a81b04f5affd364d54"><td class="memItemLeft" align="right" valign="top"><a id="a69915b4ef95446a81b04f5affd364d54"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>LAYER_KIND</b> { <b>UNITY_DEFAULT_IGNORE_RAYCAST</b>, 
+<tr class="memitem:a69915b4ef95446a81b04f5affd364d54"><td class="memItemLeft" align="right" valign="top"><a id="a69915b4ef95446a81b04f5affd364d54"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>LAYER_KIND</b> { <br />
+&#160;&#160;<b>UNITY_DEFAULT_IGNORE_RAYCAST</b>, 
 <b>AROW_ROAD</b>, 
 <b>AROW_ROOF</b>, 
-<b>AROW_WALL</b>
+<b>AROW_WALL</b>, 
+<br />
+&#160;&#160;<b>AROW_SECTOR</b>
+<br />
  }</td></tr>
 <tr class="separator:a69915b4ef95446a81b04f5affd364d54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -172,9 +176,10 @@ $(document).ready(function(){initNavTree('class_arow_library_1_1_arow_define_1_1
 <b>初期値:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> Dictionary&lt;LAYER_KIND, string&gt;()</div>
 <div class="line">    {</div>
 <div class="line">        { LAYER_KIND.UNITY_DEFAULT_IGNORE_RAYCAST,      <span class="stringliteral">&quot;Ignore Raycast&quot;</span>    },</div>
-<div class="line">        { LAYER_KIND.AROW_ROAD,                         <span class="stringliteral">&quot;ArowRoad&quot;</span>  },</div>
-<div class="line">        { LAYER_KIND.AROW_ROOF,                         <span class="stringliteral">&quot;ArowRoof&quot;</span>  },</div>
-<div class="line">        { LAYER_KIND.AROW_WALL,                         <span class="stringliteral">&quot;ArowWall&quot;</span>  }</div>
+<div class="line">        { LAYER_KIND.AROW_ROAD,                         <span class="stringliteral">&quot;ArowRoad&quot;</span>          },</div>
+<div class="line">        { LAYER_KIND.AROW_ROOF,                         <span class="stringliteral">&quot;ArowRoof&quot;</span>          },</div>
+<div class="line">        { LAYER_KIND.AROW_WALL,                         <span class="stringliteral">&quot;ArowWall&quot;</span>          },</div>
+<div class="line">        { LAYER_KIND.AROW_SECTOR,                       <span class="stringliteral">&quot;ArowSector&quot;</span>        }</div>
 <div class="line">    }</div>
 </div><!-- fragment -->
 </div>
@@ -188,7 +193,7 @@ $(document).ready(function(){initNavTree('class_arow_library_1_1_arow_define_1_1
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="footer">
-      AROW version 0.2.4 Document
+      AROW version 0.2.5 Document
     </li>
   </ul>
 </div>

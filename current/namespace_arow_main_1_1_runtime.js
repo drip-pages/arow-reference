@@ -3,6 +3,8 @@ var namespace_arow_main_1_1_runtime =
     [ "CreateModelScripts", "namespace_arow_main_1_1_runtime_1_1_create_model_scripts.html", "namespace_arow_main_1_1_runtime_1_1_create_model_scripts" ],
     [ "GPS", "namespace_arow_main_1_1_runtime_1_1_g_p_s.html", "namespace_arow_main_1_1_runtime_1_1_g_p_s" ],
     [ "License", "namespace_arow_main_1_1_runtime_1_1_license.html", "namespace_arow_main_1_1_runtime_1_1_license" ],
+    [ "Sector", "namespace_arow_main_1_1_runtime_1_1_sector.html", "namespace_arow_main_1_1_runtime_1_1_sector" ],
+    [ "Utilities", "namespace_arow_main_1_1_runtime_1_1_utilities.html", "namespace_arow_main_1_1_runtime_1_1_utilities" ],
     [ "ArowPoi", "class_arow_main_1_1_runtime_1_1_arow_poi.html", "class_arow_main_1_1_runtime_1_1_arow_poi" ],
     [ "ArowPoiCategory", "class_arow_main_1_1_runtime_1_1_arow_poi_category.html", "class_arow_main_1_1_runtime_1_1_arow_poi_category" ],
     [ "ArowPoiObserver", "class_arow_main_1_1_runtime_1_1_arow_poi_observer.html", "class_arow_main_1_1_runtime_1_1_arow_poi_observer" ],

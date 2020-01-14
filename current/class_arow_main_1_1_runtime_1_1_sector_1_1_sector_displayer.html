@@ -1,0 +1,496 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.15"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>APIリファレンス : ArowMain.Runtime.Sector.SectorDisplayer クラス</title>
+<link href="my_tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="my_navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="my_doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname"><a href="https://arow.world/"><img class="logo" src="logo.png"></a>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.16 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('class_arow_main_1_1_runtime_1_1_sector_1_1_sector_displayer.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#pub-static-methods">静的公開メンバ関数</a> &#124;
+<a href="class_arow_main_1_1_runtime_1_1_sector_1_1_sector_displayer-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">ArowMain.Runtime.Sector.SectorDisplayer クラス</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>区画にものを配置する  
+ <a href="class_arow_main_1_1_runtime_1_1_sector_1_1_sector_displayer.html#details">[詳解]</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a7332115b17510f591f0e53612f4f89fe"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_arow_main_1_1_runtime_1_1_sector_1_1_sector_displayer.html#a7332115b17510f591f0e53612f4f89fe">SectorDisplayer</a> (<a class="el" href="class_arow_main_1_1_runtime_1_1_sector_1_1_sector_grid_database.html">SectorGridDatabase</a> database, IEnumerable&lt; string &gt; cellsToDisplay)</td></tr>
+<tr class="memdesc:a7332115b17510f591f0e53612f4f89fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">SectorGridDatabaseとものを配置するべきセルを受け取り初期化を行う  <a href="class_arow_main_1_1_runtime_1_1_sector_1_1_sector_displayer.html#a7332115b17510f591f0e53612f4f89fe">[詳解]</a><br /></td></tr>
+<tr class="separator:a7332115b17510f591f0e53612f4f89fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a907e5ae83e0ed01e4c72b0c9d452edb1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_arow_main_1_1_runtime_1_1_sector_1_1_sector_displayer.html">SectorDisplayer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_arow_main_1_1_runtime_1_1_sector_1_1_sector_displayer.html#a907e5ae83e0ed01e4c72b0c9d452edb1">ChooseAndSetRandamPrefab</a> (IEnumerable&lt; <a class="el" href="class_arow_main_1_1_runtime_1_1_sector_1_1_sector_display_object.html">SectorDisplayObject</a> &gt; displayObjects, int displaySeed, Transform parent)</td></tr>
+<tr class="memdesc:a907e5ae83e0ed01e4c72b0c9d452edb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">配置するべきGameObjectを決定し配置する  <a href="class_arow_main_1_1_runtime_1_1_sector_1_1_sector_displayer.html#a907e5ae83e0ed01e4c72b0c9d452edb1">[詳解]</a><br /></td></tr>
+<tr class="separator:a907e5ae83e0ed01e4c72b0c9d452edb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af91f9b34b1de52011185527e0dad7b0f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_arow_main_1_1_runtime_1_1_sector_1_1_sector_displayer.html">SectorDisplayer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_arow_main_1_1_runtime_1_1_sector_1_1_sector_displayer.html#af91f9b34b1de52011185527e0dad7b0f">AddGapToBuildings</a> (Material ceilingMaterial, Material wallMaterial, float margin)</td></tr>
+<tr class="memdesc:af91f9b34b1de52011185527e0dad7b0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">配置したGameObjectと地形との間に土台を設置する  <a href="class_arow_main_1_1_runtime_1_1_sector_1_1_sector_displayer.html#af91f9b34b1de52011185527e0dad7b0f">[詳解]</a><br /></td></tr>
+<tr class="separator:af91f9b34b1de52011185527e0dad7b0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbee48d6f4439f9fa92a0ebe22da8df2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_arow_main_1_1_runtime_1_1_sector_1_1_sector_displayer.html">SectorDisplayer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_arow_main_1_1_runtime_1_1_sector_1_1_sector_displayer.html#acbee48d6f4439f9fa92a0ebe22da8df2">SetBuildingPosition</a> (Vector3 offset=default)</td></tr>
+<tr class="memdesc:acbee48d6f4439f9fa92a0ebe22da8df2"><td class="mdescLeft">&#160;</td><td class="mdescRight">生成したGameObjectをセルの位置に移動する  <a href="class_arow_main_1_1_runtime_1_1_sector_1_1_sector_displayer.html#acbee48d6f4439f9fa92a0ebe22da8df2">[詳解]</a><br /></td></tr>
+<tr class="separator:acbee48d6f4439f9fa92a0ebe22da8df2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57c23367390d4eb30f3aa69d952f8b96"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_arow_main_1_1_runtime_1_1_sector_1_1_sector_displayer.html">SectorDisplayer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_arow_main_1_1_runtime_1_1_sector_1_1_sector_displayer.html#a57c23367390d4eb30f3aa69d952f8b96">RotateAlongRoadBuildings</a> (IEnumerable&lt; string &gt; sectorCellIDs, IEnumerable&lt; string &gt; cellsToDisplayAlongRoad)</td></tr>
+<tr class="memdesc:a57c23367390d4eb30f3aa69d952f8b96"><td class="mdescLeft">&#160;</td><td class="mdescRight">道と隣り合うセルに配置したGameObjectを90度単位で道の方を向くように回転させる  <a href="class_arow_main_1_1_runtime_1_1_sector_1_1_sector_displayer.html#a57c23367390d4eb30f3aa69d952f8b96">[詳解]</a><br /></td></tr>
+<tr class="separator:a57c23367390d4eb30f3aa69d952f8b96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af27e7bdd690cbb1ed06461ee51fb120a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_arow_main_1_1_runtime_1_1_sector_1_1_sector_displayer.html">SectorDisplayer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_arow_main_1_1_runtime_1_1_sector_1_1_sector_displayer.html#af27e7bdd690cbb1ed06461ee51fb120a">RotateNotAlongRoadBuildings</a> (IEnumerable&lt; string &gt; cellsToDisplayAlongRoad)</td></tr>
+<tr class="memdesc:af27e7bdd690cbb1ed06461ee51fb120a"><td class="mdescLeft">&#160;</td><td class="mdescRight">道に面していないセルに配置するGameObjectを道に隣り合うセルに置かれたGameObjectの向きに合わせて回転させる  <a href="class_arow_main_1_1_runtime_1_1_sector_1_1_sector_displayer.html#af27e7bdd690cbb1ed06461ee51fb120a">[詳解]</a><br /></td></tr>
+<tr class="separator:af27e7bdd690cbb1ed06461ee51fb120a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20e59b51028abf9c2e9c8f62ad325ada"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_arow_main_1_1_runtime_1_1_sector_1_1_sector_displayer.html">SectorDisplayer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_arow_main_1_1_runtime_1_1_sector_1_1_sector_displayer.html#a20e59b51028abf9c2e9c8f62ad325ada">RandomRotateBuildings</a> (int rotationSeed)</td></tr>
+<tr class="memdesc:a20e59b51028abf9c2e9c8f62ad325ada"><td class="mdescLeft">&#160;</td><td class="mdescRight">セルに配置されたGameObjectをランダムな向きに回転させる  <a href="class_arow_main_1_1_runtime_1_1_sector_1_1_sector_displayer.html#a20e59b51028abf9c2e9c8f62ad325ada">[詳解]</a><br /></td></tr>
+<tr class="separator:a20e59b51028abf9c2e9c8f62ad325ada"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+静的公開メンバ関数</h2></td></tr>
+<tr class="memitem:a12996fc285f45b9450a3d3344f66c8ca"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_arow_main_1_1_runtime_1_1_sector_1_1_sector_displayer.html#a12996fc285f45b9450a3d3344f66c8ca">FixObjectY</a> (GameObject obj, Vector3 center, Vector3 offset=default)</td></tr>
+<tr class="memdesc:a12996fc285f45b9450a3d3344f66c8ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Raycast を使って obj の y 座標を調整する  <a href="class_arow_main_1_1_runtime_1_1_sector_1_1_sector_displayer.html#a12996fc285f45b9450a3d3344f66c8ca">[詳解]</a><br /></td></tr>
+<tr class="separator:a12996fc285f45b9450a3d3344f66c8ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>区画にものを配置する </p>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a id="a7332115b17510f591f0e53612f4f89fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7332115b17510f591f0e53612f4f89fe">&#9670;&nbsp;</a></span>SectorDisplayer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArowMain.Runtime.Sector.SectorDisplayer.SectorDisplayer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_arow_main_1_1_runtime_1_1_sector_1_1_sector_grid_database.html">SectorGridDatabase</a>&#160;</td>
+          <td class="paramname"><em>database</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IEnumerable&lt; string &gt;&#160;</td>
+          <td class="paramname"><em>cellsToDisplay</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>SectorGridDatabaseとものを配置するべきセルを受け取り初期化を行う </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">database</td><td>区画作成に必要な情報を引き出すことできるデータ</td></tr>
+    <tr><td class="paramname">cellsToDisplay</td><td>配置するべきセルの集合</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a id="af91f9b34b1de52011185527e0dad7b0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af91f9b34b1de52011185527e0dad7b0f">&#9670;&nbsp;</a></span>AddGapToBuildings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_arow_main_1_1_runtime_1_1_sector_1_1_sector_displayer.html">SectorDisplayer</a> ArowMain.Runtime.Sector.SectorDisplayer.AddGapToBuildings </td>
+          <td>(</td>
+          <td class="paramtype">Material&#160;</td>
+          <td class="paramname"><em>ceilingMaterial</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Material&#160;</td>
+          <td class="paramname"><em>wallMaterial</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>margin</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>配置したGameObjectと地形との間に土台を設置する </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ceilingMaterial</td><td>土台の上面のマテリアル</td></tr>
+    <tr><td class="paramname">wallMaterial</td><td>土台の側面のマテリアル</td></tr>
+    <tr><td class="paramname">margin</td><td>GameObjectの大きさに対して土台がどの程度余白を持つか(GameObjectのローカルスケール)</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a907e5ae83e0ed01e4c72b0c9d452edb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a907e5ae83e0ed01e4c72b0c9d452edb1">&#9670;&nbsp;</a></span>ChooseAndSetRandamPrefab()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_arow_main_1_1_runtime_1_1_sector_1_1_sector_displayer.html">SectorDisplayer</a> ArowMain.Runtime.Sector.SectorDisplayer.ChooseAndSetRandamPrefab </td>
+          <td>(</td>
+          <td class="paramtype">IEnumerable&lt; <a class="el" href="class_arow_main_1_1_runtime_1_1_sector_1_1_sector_display_object.html">SectorDisplayObject</a> &gt;&#160;</td>
+          <td class="paramname"><em>displayObjects</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>displaySeed</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Transform&#160;</td>
+          <td class="paramname"><em>parent</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>配置するべきGameObjectを決定し配置する </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">displayObjects</td><td>配置するべきGameObjectの候補</td></tr>
+    <tr><td class="paramname">displaySeed</td><td>配置するGameObjectを決定する際に用いる乱数のシード値</td></tr>
+    <tr><td class="paramname">parent</td><td>生成するGameObjectの親オブジェクト</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a12996fc285f45b9450a3d3344f66c8ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12996fc285f45b9450a3d3344f66c8ca">&#9670;&nbsp;</a></span>FixObjectY()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ArowMain.Runtime.Sector.SectorDisplayer.FixObjectY </td>
+          <td>(</td>
+          <td class="paramtype">GameObject&#160;</td>
+          <td class="paramname"><em>obj</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector3&#160;</td>
+          <td class="paramname"><em>center</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector3&#160;</td>
+          <td class="paramname"><em>offset</em> = <code>default</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Raycast を使って obj の y 座標を調整する </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">obj</td><td></td></tr>
+    <tr><td class="paramname">center</td><td></td></tr>
+    <tr><td class="paramname">offset</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a20e59b51028abf9c2e9c8f62ad325ada"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20e59b51028abf9c2e9c8f62ad325ada">&#9670;&nbsp;</a></span>RandomRotateBuildings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_arow_main_1_1_runtime_1_1_sector_1_1_sector_displayer.html">SectorDisplayer</a> ArowMain.Runtime.Sector.SectorDisplayer.RandomRotateBuildings </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>rotationSeed</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>セルに配置されたGameObjectをランダムな向きに回転させる </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rotationSeed</td><td>向きを決定するのに用いる乱数のシード値</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a57c23367390d4eb30f3aa69d952f8b96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57c23367390d4eb30f3aa69d952f8b96">&#9670;&nbsp;</a></span>RotateAlongRoadBuildings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_arow_main_1_1_runtime_1_1_sector_1_1_sector_displayer.html">SectorDisplayer</a> ArowMain.Runtime.Sector.SectorDisplayer.RotateAlongRoadBuildings </td>
+          <td>(</td>
+          <td class="paramtype">IEnumerable&lt; string &gt;&#160;</td>
+          <td class="paramname"><em>sectorCellIDs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IEnumerable&lt; string &gt;&#160;</td>
+          <td class="paramname"><em>cellsToDisplayAlongRoad</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>道と隣り合うセルに配置したGameObjectを90度単位で道の方を向くように回転させる </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sectorCellIDs</td><td>区画に含まれるセルの集合</td></tr>
+    <tr><td class="paramname">cellsToDisplayAlongRoad</td><td>道と隣り合うセルの集合</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="af27e7bdd690cbb1ed06461ee51fb120a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af27e7bdd690cbb1ed06461ee51fb120a">&#9670;&nbsp;</a></span>RotateNotAlongRoadBuildings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_arow_main_1_1_runtime_1_1_sector_1_1_sector_displayer.html">SectorDisplayer</a> ArowMain.Runtime.Sector.SectorDisplayer.RotateNotAlongRoadBuildings </td>
+          <td>(</td>
+          <td class="paramtype">IEnumerable&lt; string &gt;&#160;</td>
+          <td class="paramname"><em>cellsToDisplayAlongRoad</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>道に面していないセルに配置するGameObjectを道に隣り合うセルに置かれたGameObjectの向きに合わせて回転させる </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cellsToDisplayAlongRoad</td><td>道と隣り合うセルの集合</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="acbee48d6f4439f9fa92a0ebe22da8df2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbee48d6f4439f9fa92a0ebe22da8df2">&#9670;&nbsp;</a></span>SetBuildingPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_arow_main_1_1_runtime_1_1_sector_1_1_sector_displayer.html">SectorDisplayer</a> ArowMain.Runtime.Sector.SectorDisplayer.SetBuildingPosition </td>
+          <td>(</td>
+          <td class="paramtype">Vector3&#160;</td>
+          <td class="paramname"><em>offset</em> = <code>default</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>生成したGameObjectをセルの位置に移動する </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">offset</td><td>セルの中心座標からGameObjectを移動させたい位置へのオフセット</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>Assets/ArowMain/Runtime/Sector/SectorDisplayer.cs</li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">
+      AROW version 0.2.5 Document
+    </li>
+  </ul>
+</div>
+</body>
+</html>

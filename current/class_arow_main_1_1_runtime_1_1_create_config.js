@@ -37,6 +37,8 @@ var class_arow_main_1_1_runtime_1_1_create_config =
     [ "CategoryPoiConfig", "class_arow_main_1_1_runtime_1_1_create_config.html#aec129efef138d583c8e2ffeebab3930c", null ],
     [ "FilePath", "class_arow_main_1_1_runtime_1_1_create_config.html#a53441641e8cd026f92974936ba8ce1b0", null ],
     [ "FillGapGroundElement", "class_arow_main_1_1_runtime_1_1_create_config.html#a4042003a0f19e687a2dbc1d84d880f40", null ],
+    [ "FixedHeight", "class_arow_main_1_1_runtime_1_1_create_config.html#a8ef80958d6df6c7ae7c7d9c7072b2de4", null ],
+    [ "ForceFixHeight", "class_arow_main_1_1_runtime_1_1_create_config.html#ab665c771ec31bb942984e1fa031657f3", null ],
     [ "IsUseRandomSeed", "class_arow_main_1_1_runtime_1_1_create_config.html#ada461a860e80b590800ea1007becf889", null ],
     [ "LandmarkConfig", "class_arow_main_1_1_runtime_1_1_create_config.html#a9f701227d8bd376354d01d4d7222d028", null ],
     [ "MeshPatternElement", "class_arow_main_1_1_runtime_1_1_create_config.html#adf991a74461492b84d7e625f6ce3ad94", null ],
